@@ -3,6 +3,19 @@
   And anything elese you add to the application, for that matter.
 */
 
+
+/* figured I'd add a little bit of my own CSS :D  it is loosely based on a Florida Gators theme..uh..for no reason haha, I just like the color scheme */
+.matches{
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body{
+	background-color: blue;
+}
+
 .flexsearch-wrapper {
   height: auto;
   width: auto;
@@ -38,11 +51,11 @@
   height: 60px;
   width: 100%;
   padding: 0 46px 0 10px;
-  border-color: #888;
+  border-color: orange;
   border-radius: 35px;
   border-style: solid;
   border-width: 5px;
-  color: #333;
+  color: orange;
   font-family: 'Helvetica', sans-serif;
   font-size: 26px;
   -webkit-appearance: none;
@@ -60,7 +73,7 @@
   border: none;
   margin-right: 5px;
   background: transparent;
-  color: #888;
+  color: orange;
   font-family: 'Helvetica', sans-serif;
   font-size: 40px;
   line-height: 60px;
@@ -68,7 +81,7 @@
 
 .flexsearch-input:focus {
   outline: none;
-  border-color: #333;
+  border-color: grey;
 }
 
 .flexsearch-input:focus.flexsearch-submit {
@@ -76,12 +89,12 @@
 }
 
 .flexsearch-submit:hover {
-  color: #333;
+  color: orange;
   cursor: pointer;
 }
 
 ::-webkit-input-placeholder {
-  color: #888;
+  color: grey;
 }
 
 input:-moz-placeholder {
@@ -89,7 +102,7 @@ input:-moz-placeholder {
 }
 
 .h1 {
-  color: #333;
+  color: white;
   font-family: 'Helvetica', sans-serif;
   font-size: 45px;
   font-weight: bold;
